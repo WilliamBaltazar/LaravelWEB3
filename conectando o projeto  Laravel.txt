@@ -1,0 +1,6 @@
+Instalar o Xamp;
+Instalar o Composer;
+Colocar a Pasta do projeto em Xamp/htdocs;
+abrir terminal na pasta do projeto e digitar "Composer install";
+no terminal abrir o VScode "code .";
+conectar o projeto ao Xamp com "php artisan serve" (o xamp precisa estar conectado).
