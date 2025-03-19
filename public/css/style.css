@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: rgb(217, 239, 253);
+    font-family:  sans-serif;
+    margin-left: 3%;
+    margin-top: 2%;
+    justify-content: center;
+    width: AUTO;
+}
+.titulo{
+    color: rgb(93, 93, 236);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+.subtitulo{
+    color: rgb(0, 0, 0);
+
+}
+.campo{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.campo label{
+    color: rgb(0, 0, 0);
+    margin-right: 0.5em;
+    display: block;
+}
+.campo input{
+    border-radius: 5px;
+    padding: 0.5em;
+    border: 1px rgb(132, 132, 231) solid;
+    display: block;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+.campo input:focus{
+    background-color: rgb(218, 218, 255);
+}
+.botao{
+    font-size: 1.2em;
+    background:rgb(218, 218, 255);
+    border: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    color: black;
+    padding: 0.3em 1em;
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.botao:hover{
+    background: rgb(141, 141, 230);
+    text-shadow: none;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    }
+
+table,th ,td, tr{
+    border: 3px black solid;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1.2em;
+    width: 200px;
+    height: 25px;
+}
+table{
+    width: 1200px;
+}
+td{
+    font-size: 1.2em;
+    height: 25px;
+}
+.divform{
+    background-color: rgb(141, 141, 230);
+    border: black 2px solid;
+    border-radius: 5px;
+    width: auto;
+    display: inline-block;
+}
+.divform div{
+    display: inline-block;
+}
